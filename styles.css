@@ -1,3 +1,46 @@
-h1{
-    color: black;
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background:transparent;
+}
+.logo{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    align-items: center;
+    /* gap: 200px; */
+}
+ul{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    align-items: center;
+    flex-direction: row;
+    justify-items: flex-start;
+}
+ul li{
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
 }
