@@ -4,10 +4,10 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
     box-sizing: border-box;
 }
+/* body{} */
+
 header{
     display: flex;
     background:transparent;
@@ -20,7 +20,7 @@ header{
     font-style: italic;
     margin-left: 10px;
 }
-
+/* Stylign the navigation bar */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,6 @@ header{
     padding: 5px;
     width: 100%;
     align-items: center;
-    /* gap: 200px; */
 }
 ul{
     display: flex;
@@ -43,4 +42,58 @@ ul li{
     margin: 10px;
     padding: 5px;
     font-size: 20px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* Styling the Homepage */
+.home{
+    display: flex;
+    background-color:#FDF0D5;
+    position: relative;
+    height: 80vh;  
+    text-align: center;
+    justify-content: center;  
+}
+.home-content{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side{
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+.right-side img{
+    align-items: center;
+    width: 75%;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+    background-color: #003049;
+}
+.experience{
+    background-color: #FDF0D5;
+}
+.projects{
+    background-color: #C1121F;
+}
+.contact{
+    background-color: #780000;
 }
