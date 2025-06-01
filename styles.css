@@ -72,22 +72,28 @@ header a{
     width: 75%;
     z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.about{
-    background-color: #003049;
+.first-heading{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
 }
+.intro{
+    font-family: 30px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* Styling the about section */
+.about{
+    display: flex;
+    height: 100vh;
+    background-color: #C1121F;
+    color: whitesmoke;
+    align-items: center;
+}
+/* .about{
+    background-color: #003049;
+} */
 .experience{
     background-color: #FDF0D5;
 }
