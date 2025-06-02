@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -86,6 +85,7 @@ header a{
 /* Styling the about section */
 .about{
     display: flex;
+    flex-direction: column;
     height: 100vh;
     background-color: #C1121F;
     color: whitesmoke;
@@ -99,6 +99,59 @@ header a{
     justify-content: center;
     width: 100%;
 }
+.section-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 50px 50px;
+    
+}
+.about-left{
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 20px;
+    width: 500px;
+    height: 80vh;
+    background-image: url("/images/profile_pic.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+.about-right{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    /* justify-content: flex-end; */
+} 
+.about-right h2{
+    padding: 5px;
+}
+.about-right h3{
+    padding: 10px;
+}
+.about-right p{
+    text-align: center;
+}
+.about-buttons{
+    display: flex;
+    flex-wrap:inherit;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.about-buttons button{
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
 /* .about{
     background-color: #003049;
 } */
@@ -111,3 +164,103 @@ header a{
 .contact{
     background-color: #780000;
 }
+/* Contact */
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+section #contact{
+    padding-top: 4vh;
+    margin:  0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    background: #780000;
+}
+.section_text_p1{
+    text-align: center;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: rgb(250,250,250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+.email-icon{
+    height: 2.5rem;
+}
+.contact-icon{
+    cursor: default;
+}
+.contact-info-container p{
+    font-size: larger;
+}
+#contact a{
+    transition: all 300ms ease;
+}
+#contact p{
+    color: rgb(85,85,85);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+nav{
+    display: flex;
+}
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+    transition: all 300ms ease;
+}
+footer p{
+    text-align: center;
+    color: rgb(85,85,85);
+}
+
